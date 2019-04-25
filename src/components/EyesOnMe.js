@@ -11,7 +11,7 @@ export default class EyesOnMe extends React.Component {
     return (
       <button
       onFocus={this.onFocus}
-      onBlur={console.log("Hey! Eyes on me!")}
+      onBlur={this.onBlur}
       >
       Eyes on me, please!
       </button>
