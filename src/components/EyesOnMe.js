@@ -6,7 +6,7 @@ export default class EyesOnMe extends Component {
     return (
       <button
       onFocus={console.log("Good!")}
-      onBlur={}
+      onBlur={console.log("Hey! Eyes on me!")}
       >
       </button>
     )
