@@ -1,7 +1,7 @@
 import React from 'react';
 
 class Keypad extends React.Component {
-
+  handleInputPassword = () => console.log('Entering password...')
 
 
   render() {
@@ -9,7 +9,7 @@ class Keypad extends React.Component {
       <div>
         <input
           type="password"
-          onKeyUp={console.log('Entering password...')}
+          onKeyUp={this.handleInputPassword}
         />
       </div>
     )
