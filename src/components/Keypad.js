@@ -6,7 +6,7 @@ export default class Keypad extends Component {
       <input
       type="password"
       OnKeyUp={console.log("Entering password...")}
-      >
+      />
     )
   }
 }
